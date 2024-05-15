@@ -49,8 +49,12 @@ Las credenciales por defecto para la administración de SonarQube son:
 - Password: `admin`
 
 
-## Diagramas técnicos
+# Diagramas técnicos
+
+## Diagrama de componentes
 
 ![Diagrama de componentes](/doc/components-diagram.png "Diagrama de componentes")
+
+## Diagrama de despliegue
 
 ![Diagrama de despliegue](/doc/physical-diagram.png "Diagrama de despliegue")
