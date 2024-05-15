@@ -4,7 +4,7 @@ server_root=./
 
 start() {
 	cd $server_root
-	docker compose up -d && sleep 5 && nerdctl exec -u root -it sonarqube-v10.5 chmod 777 -R /etc/hosts
+	docker compose up -d && sleep 5 && nerdctl exec -u root -it sonarqube-v10.5.1 chmod 777 -R /etc/hosts
 }
 
 stop() {
@@ -12,10 +12,10 @@ stop() {
 	docker compose down 
 }
 status() {
-	docker ps | grep sonarqube-v10.5
+	docker ps | grep sonarqube-v10.5.1
 }
 logs() {
-	docker logs -f sonarqube-v10.5
+	docker logs -f sonarqube-v10.5.1
 }
 
 case "$1" in 

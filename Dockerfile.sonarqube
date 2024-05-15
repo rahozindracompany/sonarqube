@@ -1,4 +1,4 @@
-FROM sonarqube:10.5-community
+FROM sonarqube:10.5.1-community
 
 # if we want to install
 USER root
