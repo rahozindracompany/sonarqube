@@ -57,4 +57,4 @@ Las credenciales por defecto para la administración de SonarQube son:
 
 ## Diagrama de despliegue
 
-![Diagrama de despliegue](/doc/physical-diagram.png "Diagrama de despliegue")
+![Diagrama de despliegue](/doc/physical-diagram-1.png "Diagrama de despliegue")
