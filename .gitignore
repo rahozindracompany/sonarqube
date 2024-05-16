@@ -2,3 +2,5 @@ sonar/data/**
 sonar/extensions/**
 sonar/logs/**
 postgresql/**
+nginx/sonarqube.*
+nginx/v3.ext

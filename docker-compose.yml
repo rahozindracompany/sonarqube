@@ -15,7 +15,6 @@ services:
             - ./sonar/data:/opt/sonarqube/data
             - ./sonar/extensions:/opt/sonarqube/extensions
             - ./sonar/logs:/opt/sonarqube/logs
-            - ./nginx/jenkins.crt:/etc/ssl/certs/jenkins.crt 
         ulimits:
             nofile:
               soft: 262144
